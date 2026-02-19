@@ -18,7 +18,8 @@ document.getElementById("login-btn").addEventListener("click",function(){
         // 3-1. true ==> alert ==> homepage
         alert("Login Success");
         // window.location.assign("https://nihalxofficial.github.io/home.html");
-        window.location.href("/home.html")
+        // window.location.href("/home.html")
+        window.location.href = "home.html";
         // window.location.href("https://nihalxofficial.github.io/Payoo-Bank-Project/home.html");
     }
     else{
