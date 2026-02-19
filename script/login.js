@@ -17,8 +17,9 @@ document.getElementById("login-btn").addEventListener("click",function(){
     if(contactNumber=="01741815523" && pin=="2026"){
         // 3-1. true ==> alert ==> homepage
         alert("Login Success");
-        // window.location.assign("https://nihalxofficial.github.io/Payoo-Bank-Project/home.html");
-        window.location.href("https://nihalxofficial.github.io/Payoo-Bank-Project/home.html");
+        // window.location.assign("https://nihalxofficial.github.io/home.html");
+        window.location.href("/home.html")
+        // window.location.href("https://nihalxofficial.github.io/Payoo-Bank-Project/home.html");
     }
     else{
         // 3-2 false ==> alert ==> return
