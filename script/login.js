@@ -17,7 +17,8 @@ document.getElementById("login-btn").addEventListener("click",function(){
     if(contactNumber=="01741815523" && pin=="2026"){
         // 3-1. true ==> alert ==> homepage
         alert("Login Success");
-        window.location.assign("/home.html");
+        // window.location.assign("/home.html");
+        window.location.href("./home.html");
     }
     else{
         // 3-2 false ==> alert ==> return
